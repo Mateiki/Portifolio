@@ -1,10 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Título da página</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    Aqui vai o código HTML que fará seu site aparecer.
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateiki.dev</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!--Barra de navegação-->
+  <nav>
+    <ul>
+      <li><a href="#titulosobremim"><strong>Sobre mim</strong></a></li>
+      <li><a href="#projetos"><strong>Projetos</strong></a></li>
+      <li><a href="#skills"><strong>Skills</strong></a></li>
+      <li><a href="#contato"><strong>Contato</strong></a></li>
+    </ul>
+  </nav>
+
+  <!--Perfil-->
+  <section id="sobremim">
+    <h1 id="titulosobremim">Olá, Eu sou o Matheus Eiki</h1>
+    <p id="textosobremim">Vulgo, Mateiki ou Eiki</p>
+    <div id="caixasobremim">
+      <img src="Imagens/Foto-matheus-250.jpeg" alt="foto de perfil">
+      <p id="conteudosobremim"> <b>Meu nome é Matheus Eiki, tenho 18 anos, estudo Engenharia de Software na UnB, sou proativo e comunicativo gosto de interagir com outras pessoas e 
+      me desafiar, estando sempre em constante evolução, meus hobbies são jogar jogos multiplayer, assistir animes e fazer academia </b> &#x1F4AA;.</p>
+    </div>
+  </section>
+
+  <!--Projetos-->
+  <section id="projetos">
+    <h1 id="tituloprojetos"><b>Meus Projetos</b></h1>
+    <div id="maior">
+      <div class="proj">
+        <h2 id="subtituloChess"><i>Projeto Chess no mercy</i></h2>
+        <img src="Imagens/capa-chess-no-mercy.png" alt="imagem do projeto chess" class="imgproj">
+        <button id="botãochess" onclick="location.href='https://github.com/Mateiki/Chess-no-mercy'">Veja mais!</button>
+      </div>
+      <div class="proj">
+        <h2 id="subtituloPort"><i>Projeto Portifolio</i></h2>
+        <img src="Imagens/portifolioft300.png" alt="imagem do projeto Portifolio" class="imgproj">
+        <button id="botãoport" onclick="location.href='https://github.com/Mateiki/Portifolio'">Veja mais!</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h1 id="tituloskills">Minhas habilidades</h1>
+    <div id="divskills">
+      <img src="Imagens/html5.png" alt="">
+      <img src="Imagens/css_3.png" alt="">
+      <img src="Imagens/figma.png" alt="">
+      <img src="Imagens/C.png" alt="">
+    </div> 
+  </section>
+
+  <!--Contato-->
+  <section id="contato">
+    <div class="cont">
+      <div class="box">
+        <img src="Imagens/github.png" alt="">
+        <p><a href="https://github.com/Mateiki"><b>Mateiki</b></a></p> <!--Github-->
+      </div>
+      <div class="box">
+        <img src="Imagens/instagram.png" alt="">
+        <p><a href="https://www.instagram.com/matheus_eiki/"><b>Matheus_eiki</b></a></p> <!--instagram-->
+      </div>
+      <div class="box">
+        <img src="Imagens/gmail.png" alt="">
+        <p><a href="mailto:mekreiki@gmail.com"><b>mekreiki@gmail.com</b></a></p> <!--gmail-->
+      </div>
+    </div>
+  </section>
+
+</body>
 </html>

@@ -4,9 +4,146 @@
     box-sizing: border-box;
 }
 
-nav {
-    background-color: red;
-    text-align: center;
-    padding: 20px;
+body {
+    font-family: sans-serif;
+    background-color: #dddddd;
+}
 
+nav {
+    background-color: #532491;
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+nav ul {
+    padding-right: 70px;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 30px;
+}
+
+a{
+    color: white;
+}
+
+#sobremim {
+    margin: 100px 400px;
+    background-color: #532491;
+    border-radius: 10px;
+}
+
+#titulosobremim {
+    padding: 15px;
+}
+
+#textosobremim {
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+#sobremim img{
+    margin: 0px;
+}
+
+#conteudosobremim {
+    text-align: justify;
+    display: inline;
+}
+
+#caixasobremim {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#projetos {
+    background-color: #532491;
+}
+
+#tituloprojetos {
+    padding: 10px 20px;
+}
+
+#subtituloChess {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+#botaochess {
+    cursor: pointer;
+}
+
+#botaoport {
+    cursor: pointer;
+}
+
+#subtituloPort {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+#maior {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+    gap: 60px;
+    padding: 5px;
+}
+
+#tituloskills {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 100px 0px 30px 0px;
+}
+
+#divskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0px 120px 0px;
+    gap: 20px;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.imgproj {
+    border: 5px solid;
+    border-color: #dddddd;
+}
+
+#contato {
+    background-color: #532491;
+    font-size: 15px;
+}
+
+#contato ul li {
+    display: inline;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
